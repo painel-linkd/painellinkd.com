@@ -17,6 +17,7 @@
     <link rel="manifest" href="site.webmanifest">
 </head>
 
+
 <body id="top">
     <div id="preloader">
         <div id="loader" class="dots-fade">
@@ -39,9 +40,9 @@
                 <nav class="s-header__nav">
                     <ul class="s-header__menu-links">
                         <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
-                        <li><a class="smoothscroll" href="#about">Sobre</a></li>
-                        <li><a class="smoothscroll" href="#works">Trabalhos</a></li>
-                        <li><a class="smoothscroll" href="#footer">Contato</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -52,15 +53,15 @@
             <div class="row s-intro__content width-sixteen-col">
                 <div class="column lg-12 s-intro__content-inner grid-block grid-16">
                     <div class="s-intro__content-text">
-                        <div class="s-intro__content-pretitle text-pretitle">Nós somos a,</div>
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
                         <h1 class="s-intro__content-title">
-                            Painel LinkD<br>
-                            criando para<br>
-                            web e mobile.
+                            I'm Jonathan Doe <br>
+                            a product designer <br>
+                            base in Somewhere.
                         </h1>
                         <div class="s-intro__content-btns">
-                            <a class="smoothscroll btn" href="#about">Quem Somos</a>
-                            <a class="smoothscroll btn btn--stroke" href="#works">Nosso trabalho</a>
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
                         <h2 class="text-display-title">Sobre a Plinkd</h2>
                     </div>
                     <p class="attention-getter">
-                        A Plinkd (Painel LinkD!) é uma empresa de tecnologia situada em São Paulo, com mais de 20 anos de experiência na criação de sistemas web e mobile. Ao longo dessas duas décadas, temos sido parceiros estratégicos de startups e empresas em fase inicial (early stage) e em crescimento (growth), ajudando a transformar ideias em produtos robustos e escaláveis.
+                        A Plinkd é uma empresa de tecnologia situada em São Paulo, com mais de 20 anos de experiência na criação de sistemas web e mobile. Ao longo dessas duas décadas, temos sido parceiros estratégicos de startups e empresas em fase inicial (early stage) e em crescimento (growth), ajudando a transformar ideias em produtos robustos e escaláveis.
                     </p>
                     <p class="attention-getter">
                         Nossa expertise não se limita ao desenvolvimento de software; também oferecemos mentoria e consultoria para dezenas de startups, guiando-as pelos desafios do mercado e acelerando seu crescimento. Cada projeto que assumimos é tratado com o mesmo rigor e dedicação, seja ele de um empreendedor individual ou de uma grande empresa.
@@ -97,238 +98,255 @@
                     <p class="attention-getter">
                         Por trás da Plinkd está Daniel Malk, especialista em desenvolvimento para internet, com foco em escala, performance e segurança. Com mais de 23 anos de experiência, Daniel já trabalhou como desenvolvedor e arquiteto de sistemas em empresas renomadas no Brasil. Ele traz sua vasta experiência para cada projeto da Plinkd, garantindo que as soluções sejam não apenas inovadoras, mas também estratégicas para o sucesso dos negócios de seus clientes.
                     </p>
-                </div>
-            </div>
-        </section>
+                    <div class="grid-list-items s-about__blocks">
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Spotify
+                                    <span>Product Designer</span>
+                                </li>
+                                <li>
+                                    Dropbox
+                                    <span>Interface Developer</span>
+                                </li>
+                                <li>
+                                    Google
+                                    <span>Lead UI Designer</span>
+                                </li>
+                                <li>
+                                    Figma
+                                    <span>UI Designer</span>
+                                </li>
+                                <li>
+                                    Microsoft
+                                    <span>UI Designer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
 
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Day
+                                        <span>Awwwards — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Agency of The Year
+                                        <span>Awwwards — 2022</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        FWA of The Month
+                                        <span>FWA — 2022</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Site Of The Month
+                                        <span>Awwwards — 2022</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Product Design
+                                </li>
+                                <li>
+                                    UI/UX Design
+                                </li>
+                                <li>
+                                    Prototyping
+                                </li>
+                                <li>
+                                    Frontend Development
+                                </li>
+                                <li>
+                                    Illustration
+                                </li>
+                                <li>
+                                    Visual Design
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+
+        </section> <!-- end s-about -->
+
+
+
+        <!-- # works
+        ================================================== -->
         <section id="works" class="s-works target-section">
+
             <div class="row">
                 <div class="column xl-12">
                     <div class="section-header" data-num="02">
-                        <h2 class="text-display-title">Trabalhos selecionados.</h2>
-                    </div>
-                    <p class="attention-getter">
-                        Uma amostra dos nossos projetos, onde transformamos ideias em soluções digitais.
-                    </p>
+                        <h2 class="text-display-title">Selected Works.</h2>
+                    </div> <!-- end section-header -->
                 </div>
             </div>
+
             <div class="row folio-entries">
-                <div class="column entry">
-                    <a href="images/folio/vistoria-completa.jpg" class="entry__link glightbox" data-glightbox="title: Vistoria Completa; description: .entry__desc-vistoria">
-                        <div class="entry__thumb">
-                            <img src="images/folio/vistoria-completa.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Vistoria Completa</h4>
-                            <div class="entry__cat">App e Plataforma Web</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-vistoria">
-                        <p>
-                            Aplicativo e plataforma web de vistoria de imóveis. <a href="https://vistoriacompleta.com.br/" target="_blank">Link do projeto</a>.
-                        </p>
-                    </div>
-                </div>
 
                 <div class="column entry">
-                    <a href="images/folio/casas-de-shows.jpg" class="entry__link glightbox" data-glightbox="title: Casas de Shows; description: .entry__desc-casasdeshows">
+                    <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
                         <div class="entry__thumb">
-                            <img src="images/folio/casas-de-shows.jpg" alt="">
+                            <img src="images/folio/white_turban.jpg" srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Casas de Shows</h4>
-                            <div class="entry__cat">Cultura e Turismo</div>
+                            <h4 class="entry__title">White Knit Cap</h4>
+                            <div class="entry__cat">Frontend Design</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-casasdeshows">
+
+                    <div class="glightbox-desc entry__desc-01">
                         <p>
-                            Site de cultura e turismo revolucionário no Brasil.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
                 <div class="column entry">
-                    <a href="images/folio/painel-da-loja.jpg" class="entry__link glightbox" data-glightbox="title: Painel da Loja; description: .entry__desc-paineldaloja">
+                    <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
                         <div class="entry__thumb">
-                            <img src="images/folio/painel-da-loja.jpg" alt="">
+                            <img src="images/folio/woodcraft.jpg" srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Painel da Loja</h4>
-                            <div class="entry__cat">ERP</div>
+                            <h4 class="entry__title">WoodCraft</h4>
+                            <div class="entry__cat">Product Design</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-paineldaloja">
+
+                    <div class="glightbox-desc entry__desc-02">
                         <p>
-                            ERP para lojas maçônicas.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
                 <div class="column entry">
-                    <a href="images/folio/meufan.jpg" class="entry__link glightbox" data-glightbox="title: meufan; description: .entry__desc-meufan">
+                    <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
                         <div class="entry__thumb">
-                            <img src="images/folio/meufan.jpg" alt="">
+                            <img src="images/folio/caffeine_and_tulips.jpg" srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">meufan</h4>
-                            <div class="entry__cat">Rede Social</div>
+                            <h4 class="entry__title">Caffeine & Tulips</h4>
+                            <div class="entry__cat">Brand Identity</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-meufan">
+
+                    <div class="glightbox-desc entry__desc-03">
                         <p>
-                            Rede social.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
                 <div class="column entry">
-                    <a href="images/folio/arquitecasa.jpg" class="entry__link glightbox" data-glightbox="title: Arquitecasa; description: .entry__desc-arquitecasa">
+                    <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
                         <div class="entry__thumb">
-                            <img src="images/folio/arquitecasa.jpg" alt="">
+                            <img src="images/folio/grayscale.jpg" srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Arquitecasa</h4>
-                            <div class="entry__cat">Construtech</div>
+                            <h4 class="entry__title">Grayscale</h4>
+                            <div class="entry__cat">Product Design</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-arquitecasa">
+
+                    <div class="glightbox-desc entry__desc-04">
                         <p>
-                            Construtech e marketplace pioneira no Brasil em construção e reforma, app para todas plataformas.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
                 <div class="column entry">
-                    <a href="images/folio/darkinquisition.jpg" class="entry__link glightbox" data-glightbox="title: Dark Inquisition; description: .entry__desc-darkinquisition">
+                    <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
                         <div class="entry__thumb">
-                            <img src="images/folio/darkinquisition.jpg" alt="">
+                            <img src="images/folio/lamp.jpg" srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Dark Inquisition</h4>
-                            <div class="entry__cat">Death Metal</div>
+                            <h4 class="entry__title">The Lamp</h4>
+                            <div class="entry__cat">Brand Identity</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-darkinquisition">
+
+                    <div class="glightbox-desc entry__desc-05">
                         <p>
-                            Site da banda Dark Inquisition, death metal de São Paulo.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
                 <div class="column entry">
-                    <a href="images/folio/hibike.jpg" class="entry__link glightbox" data-glightbox="title: Hibike; description: .entry__desc-hibike">
+                    <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
                         <div class="entry__thumb">
-                            <img src="images/folio/hibike.jpg" alt="">
+                            <img src="images/folio/tropical.jpg" srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Hibike</h4>
-                            <div class="entry__cat">Programa de Fidelidade</div>
+                            <h4 class="entry__title">Tropical</h4>
+                            <div class="entry__cat">Frontend Design</div>
                         </div>
                     </a>
-                    <div class="glightbox-desc entry__desc-hibike">
+
+                    <div class="glightbox-desc entry__desc-06">
                         <p>
-                            Aplicativo iOS e Android programa de fidelidade para ciclistas.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                            deleniti facilis ab, tempora non! Nisi, tempora provident.
+                            <a href="https://www.behance.net/">Project Link</a>.
                         </p>
                     </div>
-                </div>
+                </div> <!-- entry -->
 
-                <!-- Sites em Wordpress -->
-
-                <div class="column entry">
-                    <a href="images/folio/histeria.jpg" class="entry__link glightbox" data-glightbox="title: Histeria; description: .entry__desc-histeria">
-                        <div class="entry__thumb">
-                            <img src="images/folio/histeria.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Histeria</h4>
-                            <div class="entry__cat">Site de Produtora de Vídeo</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-histeria">
-                        <p>
-                            Site de produtora de vídeo.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="column entry">
-                    <a href="images/folio/tamarindo.jpg" class="entry__link glightbox" data-glightbox="title: tamarindo; description: .entry__desc-tamarindo">
-                        <div class="entry__thumb">
-                            <img src="images/folio/tamarindo.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Tamarindo</h4>
-                            <div class="entry__cat">Site de Produtora de Vídeo</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-tamarindo">
-                        <p>
-                            Site de produtora de vídeo.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="column entry">
-                    <a href="images/folio/rosacruz.jpg" class="entry__link glightbox" data-glightbox="title: Rosa Cruz Aurea; description: .entry__desc-rosacruz">
-                        <div class="entry__thumb">
-                            <img src="images/folio/rosacruz.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Rosa Cruz Aurea</h4>
-                            <div class="entry__cat">Site Oficial da Rosa Cruz no Brasil</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-rosacruz">
-                        <p>
-                            Site da Rosa Cruz oficial no Brasil.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="column entry">
-                    <a href="images/folio/jackson-ferreira.jpg" class="entry__link glightbox" data-glightbox="title: Jackson Ferreira; description: .entry__desc-jacksonferreira">
-                        <div class="entry__thumb">
-                            <img src="images/folio/jackson-ferreira.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Jackson Ferreira</h4>
-                            <div class="entry__cat">Engenheiro Civil</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-jacksonferreira">
-                        <p>
-                            Engenheiro civil referência em São Paulo.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="column entry">
-                    <a href="images/folio/bbt.jpg" class="entry__link glightbox" data-glightbox="title: Brazilian Black Thai; description: .entry__desc-brazilianblackthai">
-                        <div class="entry__thumb">
-                            <img src="images/folio/bbt.jpg" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Brazilian Black Thai</h4>
-                            <div class="entry__cat">Centro de Treinamento de Muay Thai</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-brazilianblackthai">
-                        <p>
-                            Centro de treinamento de Muay Thai de Jundiaí, um dos mais conceituados do Brasil. <a href="https://brazilianblackthai.com" target="_blank">brazilianblackthai.com</a>
-                        </p>
-                    </div>
-                </div>
-
-
-
-            </div>
+            </div> <!-- folio entries -->
 
 
             <div class="row s-testimonials">
                 <div class="column xl-12">
+
                     <h3 class="s-testimonials__header">Hear it from My Happy Clients</h3>
+
                     <div class="swiper-container s-testimonials__slider">
+
                         <div class="swiper-wrapper">
+
                             <div class="s-testimonials__slide swiper-slide">
                                 <div class="s-testimonials__author">
                                     <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
@@ -342,7 +360,8 @@
                                     Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
                                     Laudantium quia consequatur molestias.
                                 </p>
-                            </div>
+                            </div> <!-- end s-testimonials__slide -->
+
                             <div class="s-testimonials__slide swiper-slide">
                                 <div class="s-testimonials__author">
                                     <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
@@ -356,7 +375,8 @@
                                     Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
                                     Quasi voluptas eius distinctio. Atque eos maxime.
                                 </p>
-                            </div>
+                            </div> <!-- end s-testimonials__slide -->
+
                             <div class="s-testimonials__slide swiper-slide">
                                 <div class="s-testimonials__author">
                                     <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
@@ -370,7 +390,8 @@
                                     Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
                                     Voluptatem dignissimos ut.
                                 </p>
-                            </div>
+                            </div> <!-- end s-testimonials__slide -->
+
                             <div class="s-testimonials__slide swiper-slide">
                                 <div class="s-testimonials__author">
                                     <img src="images/avatars/user-06.jpg" alt="Author image" class="s-testimonials__avatar">
@@ -384,18 +405,26 @@
                                     quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit.
                                     Nihil ea quia nesciunt. Ducimus aut sed ipsam.
                                 </p>
-                            </div>
-                        </div>
+                            </div> <!-- end s-testimonials__slide -->
+
+                        </div> <!-- end swiper-wrapper -->
+
                         <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+                    </div> <!-- end swiper-container -->
+
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+
+        </section> <!-- end s-works -->
 
 
-
+        <!-- # numbers
+        ================================================== -->
         <section id="numbers" class="s-numbers">
+
             <div class="row counter-items">
+
                 <div class="column counter-items__item">
                     <div class="num">
                         80
@@ -407,7 +436,8 @@
                         Vel harum magni quae voluptate error quo repellendus inventore
                         laborum ex veniam.
                     </p>
-                </div>
+                </div> <!-- end counter-items__item -->
+
                 <div class="column counter-items__item">
                     <div class="num">
                         120
@@ -419,7 +449,8 @@
                         Fusce vel dui. In ac felis
                         quis tortor malesuada pretium
                     </p>
-                </div>
+                </div> <!-- end counter-items__item -->
+
                 <div class="column counter-items__item">
                     <div class="num">
                         23k
@@ -430,7 +461,8 @@
                         Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
                         Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
                     </p>
-                </div>
+                </div> <!-- end counter-items__item -->
+
                 <div class="column counter-items__item">
                     <div class="num">
                         85
@@ -441,26 +473,34 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error
                         quo repellendus inventore laborum ex veniam.
                     </p>
-                </div>
-            </div>
-        </section>
+                </div> <!-- end counter-items__item -->
+
+            </div> <!-- end counter-items -->
+
+        </section> <!-- end s-numbers -->
 
 
-
+        <!-- # footer 
+        ================================================== -->
         <footer id="footer" class="s-footer target-section">
+
             <div class="row">
                 <div class="column lg-12">
                     <div class="section-header light-on-dark" data-num="03">
-                        <h2 class="text-display-title">Entre em contato.</h2>
-                    </div>
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
                 </div>
             </div>
+
             <div class="row s-footer__content">
+
                 <div class="column xl-6 md-12 s-footer__block s-footer__about">
                     <p class="attention-getter">
-                        Estamos prontos para ajudar a transformar sua ideia em realidade. Seja para discutir um novo projeto, esclarecer dúvidas ou explorar parcerias, estamos aqui para ouvir você. Vamos conversar e encontrar a melhor solução para o seu negócio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero,
+                        fugiat laboriosam possimus amet consectetur adipisicing elit reprehenderit eveniet tempore quisquam ipsa id esse. Facere ratione dignissimos.
                     </p>
-                </div>
+                </div> <!-- end section-footer__about -->
+
                 <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
                     <div class="row">
                         <div class="column xl-4 lg-5 md-6 tab-12">
@@ -474,26 +514,32 @@
                             </ul>
                         </div>
                         <div class="column xl-6 md-6 tab-12">
-                            <h5>Contato</h5>
+                            <h5>Contact Me</h5>
                             <ul class="link-list">
                                 <li><a href="mailto:#0">sayhello@hudson.com</a></li>
-                                <li><a href="tel:+1975432345">+55 11 93421-4025</a></li>
+                                <li><a href="tel:+1975432345">+197 543 2345</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
 
             <div class="row s-footer__buttons">
+
                 <div class="column xl-6 tab-12">
-                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Me envie uma mensagem</a>
+                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
                 </div>
+
                 <div class="column xl-6 tab-12">
-                    <a href="https://www.linkedin.com/in/danielscmalk/" class="btn btn--stroke btn--large u-fullwidth">Linkedin</a>
+                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
                 </div>
-            </div>
+
+            </div> <!-- end section-footer__buttons -->
 
             <div class="row s-footer__bottom">
+
                 <div class="column xl-6 lg-12">
                     <ul class="s-footer__social social-list">
                         <li>
@@ -531,7 +577,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> <!-- end section-footer__social -->
 
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
@@ -539,22 +585,28 @@
                         <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span>
                     </p>
                 </div>
-            </div>
+
+            </div> <!-- end section-footer__bottom -->
 
             <div class="ss-go-top">
-                <a class="smoothscroll" title="voltar ao topo" href="#top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                         <path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path>
                     </svg>
                 </a>
-                <span>voltar ao topo</span>
-            </div>
-        </footer>
+                <span>Back To Top</span>
+            </div> <!-- end ss-go-top -->
 
-    </div>
+        </footer> <!-- end s-footer -->
 
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
