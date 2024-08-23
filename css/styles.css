@@ -4465,3 +4465,28 @@ a.plinkdlogo {
     height: 100%;
     object-fit: cover;
 }
+
+.ribon {
+    position: absolute;
+    padding: 0px 10px;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    font-family: "Public Sans", Sans-serif;
+    font-size: 0.6em;
+}
+
+.ribon.proprios {
+    color: #fff;
+    background-color: #0000008a;
+    border: 2px solid #fff;
+}
+
+.ribon.cliente {
+    color: #fff;
+    background-color: #e0ba3e8a;
+    border: 2px solid #fff;
+}
